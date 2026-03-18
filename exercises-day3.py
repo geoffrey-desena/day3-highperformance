@@ -161,10 +161,26 @@ print("oh, hey! woodja look at that!")
 # Revisit the ```matmult.py``` example from yesterday and improve its performance using Numpy.
 
 # Well, I didn't get that far yesterday, so let's see.
-# Ok, so this thing just multiplies an N x N matrix by an N x N+1 matrix. 
-# If I was paying attention, numpy does this implicitly
+# np must have a function for this...
 
 N = 100
 Mat1 = np.random.rand(N,N)
 Mat2 = np.random.rand(N,N+1)
+
+prod = np.matmul(Mat1,Mat2)
+print(f"The result has dimensions {prod.shape}")
+
+# %% Exercise 4: MPI parallelization
+
+# Geinuinely doubting that I'll ever need this... I'm skipping it for now
+
+#### a. Write a simple MPI script ```mpi_ranks.py``` that prints the rank of the different processes when running 
+
+# mpirun python mpi_ranks.py
+
+# #### b. Write a small script ```mpi_sum.py``` which calculates the sum over all ranks and prints the result from the process with rank 0.
+# Hint: Have a look at the tutorials from the mpi4py documentation page: [https://mpi4py.readthedocs.io/en/stable/tutorial.html](https://mpi4py.readthedocs.io/en/stable/tutorial.html)
+
+# %% 
+
 
