@@ -157,4 +157,14 @@ print("At this point, I can just guess that the function is called 'diagonal'")
 print(f"{np.diagonal(C)}")
 print("oh, hey! woodja look at that!")
 
-# %% Exercise 
+# %% Exercise 3
+# Revisit the ```matmult.py``` example from yesterday and improve its performance using Numpy.
+
+# Well, I didn't get that far yesterday, so let's see.
+# Ok, so this thing just multiplies an N x N matrix by an N x N+1 matrix. 
+# If I was paying attention, numpy does this implicitly
+
+N = 100
+Mat1 = np.random.rand(N,N)
+Mat2 = np.random.rand(N,N+1)
+
