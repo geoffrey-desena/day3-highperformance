@@ -181,6 +181,9 @@ print(f"The result has dimensions {prod.shape}")
 # #### b. Write a small script ```mpi_sum.py``` which calculates the sum over all ranks and prints the result from the process with rank 0.
 # Hint: Have a look at the tutorials from the mpi4py documentation page: [https://mpi4py.readthedocs.io/en/stable/tutorial.html](https://mpi4py.readthedocs.io/en/stable/tutorial.html)
 
-# %% 
+# %% Exercise 5
+
+# Also seems beyond my needs.
+# I'm going back to the Day 2 exercises
 
 
