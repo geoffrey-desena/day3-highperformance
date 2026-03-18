@@ -156,3 +156,5 @@ C = np.dot(A,B)
 print("At this point, I can just guess that the function is called 'diagonal'")
 print(f"{np.diagonal(C)}")
 print("oh, hey! woodja look at that!")
+
+# %% Exercise 
