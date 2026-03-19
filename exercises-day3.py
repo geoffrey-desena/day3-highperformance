@@ -172,14 +172,32 @@ print(f"The result has dimensions {prod.shape}")
 
 # %% Exercise 4: MPI parallelization
 
-# Geinuinely doubting that I'll ever need this... I'm skipping it for now
+# The standard way to program clusters
+# 
 
 #### a. Write a simple MPI script ```mpi_ranks.py``` that prints the rank of the different processes when running 
 
 # mpirun python mpi_ranks.py
 
+# Hey! I did it! That one was easy, but I had to run it in the terminal
+# Here's the output
+
+'''
+(base) geoffreydesena@Geoffreys-MacBook-Pro day3-highperformance % mpirun -n 5 python mpi_ranks.py
+hello world from process  0
+hello world from process  1
+hello world from process  2
+hello world from process  4
+hello world from process  3
+(base) geoffreydesena@Geoffreys-MacBook-Pro day3-highperformance % 
+'''
+
 # #### b. Write a small script ```mpi_sum.py``` which calculates the sum over all ranks and prints the result from the process with rank 0.
 # Hint: Have a look at the tutorials from the mpi4py documentation page: [https://mpi4py.readthedocs.io/en/stable/tutorial.html](https://mpi4py.readthedocs.io/en/stable/tutorial.html)
+
+# I'm really doubtul I'll ever use MPI, so I'm going to skip this
+# Now I know it exists and where to look in case I ever need to program
+# on a cluster
 
 # %% Exercise 5
 
