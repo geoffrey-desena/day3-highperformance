@@ -201,7 +201,10 @@ hello world from process  3
 
 # %% Exercise 5
 
-# Also seems beyond my needs.
-# I'm going back to the Day 2 exercises
-
+# Based on today's lecture (Thursday), it seems that I could potentially get some
+# use out of this at some point. However, I'm dependent on a Python package
+# that has its own solution methods. As of right now, this is plenty fast, but
+# I could see myself wanting to run these processes millions of times.
+# I'm not sure if I could get the python package to run on a GPU, but it could
+# be very helpful to parallelize the run power flow runs.
 
